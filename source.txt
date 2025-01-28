@@ -54,7 +54,7 @@ Understand "ask [someone] about [text]" as asking it about.
 Understand "ask [someone] about the [text]" as asking it about.
 Understand "[someone] [text]" as asking it about.
 
-After asking someone about something:
+After asking the wizard about something:
 	repeat through the Table of Wizard Responses:
 		if the topic understood includes topic entry:
 			say "[Response entry][paragraph break]";
@@ -197,12 +197,12 @@ Topic	Response
 "light"	"The goblin peers up. 'Light? Oh, sure, there’s light. If you survive long enough to find it.'"
 "default"	"The goblin scratches his head. 'What are you even talking about? I can’t keep up with your nonsense.'"
 
-After asking someone about something:
+After asking the goblin about something:
 	repeat through the Table of Goblin Responses:
 		if the topic understood includes topic entry:
 			say "[Response entry][paragraph break]";
 			rule succeeds;
-		say "The goblin laughs. 'That’s a good one! Ask me something that makes sense next time.'";
+	say "The goblin laughs. 'That’s a good one! Ask me something that makes sense next time.'";
 
 
 
